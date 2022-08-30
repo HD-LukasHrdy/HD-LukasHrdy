@@ -28,5 +28,5 @@ jobs:
     - name: Configure AWS credentials from Test account
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::040134406253:role/legato-github-Role-1V4RIQI4LYNCH
+        role-to-assume: arn:aws:iam::040134406253:role/legato-github-GitHubRole-VUN4CHH1LVMH
         aws-region: eu-central-1
